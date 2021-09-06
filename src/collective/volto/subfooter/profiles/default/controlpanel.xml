@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<object
+    name="portal_controlpanel"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="collective.volto.subfooter"
+    purge="False">
+
+    <configlet
+        title="Subfooter settings"
+        action_id="Subfooter"
+        appId="collective.volto.subfooter"
+        category="Products"
+        condition_expr=""
+        url_expr="string:${portal_url}/@@subfooter-settings"
+        icon_expr=""
+        visible="True"
+        i18n:attributes="title">
+        <permission>Manage portal</permission>
+    </configlet>
+
+</object>

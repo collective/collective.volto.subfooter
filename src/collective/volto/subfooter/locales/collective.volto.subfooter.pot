@@ -1,0 +1,48 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-02-05 14:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.volto.subfooter\n"
+
+#: collective/volto/subfooter/configure.zcml:21
+msgid "Installs the collective.volto.subfooter add-on."
+msgstr ""
+
+#: collective/volto/subfooter/profiles/default/controlpanel.xml
+msgid "Subfooter settings"
+msgstr ""
+
+#: collective/volto/subfooter/configure.zcml:30
+msgid "Uninstalls the collective.volto.subfooter add-on."
+msgstr ""
+
+#: collective/volto/subfooter/configure.zcml:21
+msgid "Volto Subfooter"
+msgstr ""
+
+#: collective/volto/subfooter/configure.zcml:30
+msgid "Volto Subfooter (uninstall)"
+msgstr ""
+
+#. Default: "Subfooter configuration"
+#: collective/volto/subfooter/interfaces.py:11
+msgid "subfooter_configuration_label"
+msgstr ""
+
+#. Default: "Subfooter Settings"
+#: collective/volto/subfooter/browser/controlpanel.py:10
+msgid "subfooter_settings_label"
+msgstr ""
