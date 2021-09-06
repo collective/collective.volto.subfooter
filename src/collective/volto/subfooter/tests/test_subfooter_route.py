@@ -45,7 +45,7 @@ class SubfooterEndpointTest(BaseTestWithFolders):
                     {
                         "title": "First tab",
                         "foo": "bar",
-                        "navigationRoot": [self.folder_a.UID(), self.folder_b.UID(),],
+                        "navigationRoot": [self.folder_a.UID(), self.folder_b.UID()],
                     }
                 ],
             }
@@ -70,7 +70,10 @@ class SubfooterEndpointTest(BaseTestWithFolders):
                     {
                         "title": "First tab",
                         "foo": "bar",
-                        "showMoreLink": [self.folder_a.UID(), self.folder_b.UID(),],
+                        "showMoreLink": [
+                            self.folder_a.UID(),
+                            self.folder_b.UID(),
+                        ],
                     }
                 ],
             }

@@ -115,7 +115,9 @@ class BaseTestWithFolders(unittest.TestCase):
 
     def set_record_value(self, data):
         api.portal.set_registry_record(
-            "subfooter_configuration", json.dumps(data), interface=ISubfooter,
+            "subfooter_configuration",
+            json.dumps(data),
+            interface=ISubfooter,
         )
 
 
@@ -128,7 +130,9 @@ class SubfooterServiceDeserializerTest(BaseTestWithFolders):
 
     def get_record_value(self):
         record = api.portal.get_registry_record(
-            "subfooter_configuration", interface=ISubfooter, default="",
+            "subfooter_configuration",
+            interface=ISubfooter,
+            default="",
         )
         if not record:
             return []
@@ -162,7 +166,8 @@ class SubfooterServiceDeserializerTest(BaseTestWithFolders):
             }
         ]
         self.api_session.patch(
-            self.controlpanel_url, json={"subfooter_configuration": json.dumps(data)},
+            self.controlpanel_url,
+            json={"subfooter_configuration": json.dumps(data)},
         )
         commit()
         record = self.get_record_value()
@@ -191,7 +196,8 @@ class SubfooterServiceDeserializerTest(BaseTestWithFolders):
             }
         ]
         self.api_session.patch(
-            self.controlpanel_url, json={"subfooter_configuration": json.dumps(data)},
+            self.controlpanel_url,
+            json={"subfooter_configuration": json.dumps(data)},
         )
         commit()
         record = self.get_record_value()
@@ -218,7 +224,8 @@ class SubfooterServiceDeserializerTest(BaseTestWithFolders):
             }
         ]
         self.api_session.patch(
-            self.controlpanel_url, json={"subfooter_configuration": json.dumps(data)},
+            self.controlpanel_url,
+            json={"subfooter_configuration": json.dumps(data)},
         )
         commit()
         record = self.get_record_value()
@@ -249,7 +256,8 @@ class SubfooterServiceDeserializerTest(BaseTestWithFolders):
             }
         ]
         self.api_session.patch(
-            self.controlpanel_url, json={"subfooter_configuration": json.dumps(data)},
+            self.controlpanel_url,
+            json={"subfooter_configuration": json.dumps(data)},
         )
         commit()
         record = self.get_record_value()
@@ -276,7 +284,8 @@ class SubfooterServiceDeserializerTest(BaseTestWithFolders):
             }
         ]
         self.api_session.patch(
-            self.controlpanel_url, json={"subfooter_configuration": json.dumps(data)},
+            self.controlpanel_url,
+            json={"subfooter_configuration": json.dumps(data)},
         )
         commit()
         record = self.get_record_value()
@@ -307,7 +316,8 @@ class SubfooterServiceDeserializerTest(BaseTestWithFolders):
             }
         ]
         self.api_session.patch(
-            self.controlpanel_url, json={"subfooter_configuration": json.dumps(data)},
+            self.controlpanel_url,
+            json={"subfooter_configuration": json.dumps(data)},
         )
         commit()
         record = self.get_record_value()
@@ -386,7 +396,7 @@ class SubfooterServiceSerializerTest(BaseTestWithFolders):
                     {
                         "title": "First tab",
                         "foo": "bar",
-                        "navigationRoot": [self.folder_a.UID(), self.folder_b.UID(),],
+                        "navigationRoot": [self.folder_a.UID(), self.folder_b.UID()],
                     }
                 ],
             }
@@ -442,7 +452,7 @@ class SubfooterServiceSerializerTest(BaseTestWithFolders):
                     {
                         "title": "First tab",
                         "foo": "bar",
-                        "showMoreLink": [self.folder_a.UID(), self.folder_b.UID(),],
+                        "showMoreLink": [self.folder_a.UID(), self.folder_b.UID()],
                     }
                 ],
             }

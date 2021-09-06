@@ -23,7 +23,7 @@ class SubfooterControlpanelDeserializeFromJson(ControlpanelDeserializeFromJson):
         data = req.get("subfooter_configuration", {})
         if not data:
             errors.append(
-                {"message": "Missing data", "field": "subfooter_configuration",}
+                {"message": "Missing data", "field": "subfooter_configuration"}
             )
             raise BadRequest(errors)
         try:
@@ -31,7 +31,7 @@ class SubfooterControlpanelDeserializeFromJson(ControlpanelDeserializeFromJson):
             setattr(proxy, "subfooter_configuration", json.dumps(value))
         except ValueError as e:
             errors.append(
-                {"message": str(e), "field": "subfooter_configuration", "error": e,}
+                {"message": str(e), "field": "subfooter_configuration", "error": e}
             )
 
         if errors:
