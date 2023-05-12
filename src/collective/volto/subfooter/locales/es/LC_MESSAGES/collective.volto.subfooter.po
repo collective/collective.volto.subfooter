@@ -1,0 +1,50 @@
+# Translation of collective.volto.subfooter.pot to Spanish
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: collective.volto.subfooter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-05 14:17+0000\n"
+"PO-Revision-Date: 2023-05-12 11:39-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language: es\n"
+"Language-Team: ES <LL@li.org>\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Preferred-Encodings: utf-8\n"
+"MIME-Version: 1.0\n"
+"Language-Code: es\n"
+"Language-Name: Español\n"
+"Domain: collective.volto.subfooter\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#: collective/volto/subfooter/configure.zcml:21
+msgid "Installs the collective.volto.subfooter add-on."
+msgstr "Instalar el complemento collective.volto.subfooter."
+
+#: collective/volto/subfooter/profiles/default/controlpanel.xml
+msgid "Subfooter settings"
+msgstr "Configuración de Subfooter"
+
+#: collective/volto/subfooter/configure.zcml:30
+msgid "Uninstalls the collective.volto.subfooter add-on."
+msgstr "Desinstala el complemento collective.volto.subfooter."
+
+#: collective/volto/subfooter/configure.zcml:21
+msgid "Volto Subfooter"
+msgstr "Volto Subfooter"
+
+#: collective/volto/subfooter/configure.zcml:30
+msgid "Volto Subfooter (uninstall)"
+msgstr "Volto Subfooter (desinstala)"
+
+#. Default: "Subfooter configuration"
+#: collective/volto/subfooter/interfaces.py:11
+msgid "subfooter_configuration_label"
+msgstr "Subfooter"
+
+#. Default: "Subfooter Settings"
+#: collective/volto/subfooter/browser/controlpanel.py:10
+msgid "subfooter_settings_label"
+msgstr "Configuración de Subfooter"

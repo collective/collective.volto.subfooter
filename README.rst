@@ -42,6 +42,8 @@ This product has been translated into
 
 - Italian
 
+- Spanish
+
 
 Installation
 ------------
