@@ -23,7 +23,7 @@ msgstr "Install collective.volto.subfooter."
 
 #: collective/volto/subfooter/profiles/default/controlpanel.xml
 msgid "Subfooter settings"
-msgstr "Impostazioni Subfooter"
+msgstr "Footer secondario"
 
 #: collective/volto/subfooter/configure.zcml:30
 msgid "Uninstalls the collective.volto.subfooter add-on."
@@ -45,4 +45,4 @@ msgstr "Subfooter"
 #. Default: "Subfooter Settings"
 #: collective/volto/subfooter/browser/controlpanel.py:10
 msgid "subfooter_settings_label"
-msgstr "Impostazioni Subfooter"
+msgstr "Impostazioni footer secondario"
