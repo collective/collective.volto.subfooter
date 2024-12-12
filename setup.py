@@ -16,7 +16,7 @@ long_description = "\n\n".join(
 
 setup(
     name="collective.volto.subfooter",
-    version="1.1.1",
+    version="1.1.2.dev0",
     description="Add-on for Volto to manage a subfooter in dropdown one.",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
