@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1.2 (unreleased)
+2.0.0 (unreleased)
 ------------------
 
 - Update permission settings to allow site administrators to access the control panel
