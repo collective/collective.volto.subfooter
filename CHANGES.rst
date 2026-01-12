@@ -4,8 +4,8 @@ Changelog
 1.1.2 (unreleased)
 ------------------
 
-- Changed control panel for site administrator permissions
-   [simone]
+- Update permission settings to allow site administrators to access the control panel
+   [thesaintsimon]
 
 
 1.1.1 (2024-12-12)
