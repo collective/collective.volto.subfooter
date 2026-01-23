@@ -13,6 +13,7 @@ from zope.interface import implementer
 
 import json
 
+
 KEYS_WITH_URL = ["linkUrl", "navigationRoot", "showMoreLink"]
 
 

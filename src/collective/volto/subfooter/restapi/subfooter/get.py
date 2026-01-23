@@ -15,7 +15,9 @@ class SubfooterGet(Service):
     def reply(self):
         try:
             record = api.portal.get_registry_record(
-                "subfooter_configuration", interface=ISubfooter, default="",
+                "subfooter_configuration",
+                interface=ISubfooter,
+                default="",
             )
         except KeyError:
             return []

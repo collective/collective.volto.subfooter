@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-from collective.volto.subfooter.tests.test_subfooter_controlpanel import (  # noqa
-    BaseTestWithFolders,
-)
+from collective.volto.subfooter.tests.test_subfooter_controlpanel import BaseTestWithFolders  # noqa
 from transaction import commit
 
 

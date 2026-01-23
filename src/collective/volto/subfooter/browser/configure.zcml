@@ -2,14 +2,15 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:plone="http://namespaces.plone.org/plone"
-    i18n_domain="collective.volto.subfooter">
+    i18n_domain="collective.volto.subfooter"
+    >
 
-      <browser:page
-      class=".controlpanel.Subfooter"
-      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
-      layer="collective.volto.subfooter.interfaces.ICollectiveVoltoSubfooterLayer"
+  <browser:page
       name="subfooter-settings"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".controlpanel.Subfooter"
       permission="cmf.ManagePortal"
-  />
+      layer="collective.volto.subfooter.interfaces.ICollectiveVoltoSubfooterLayer"
+      />
 
 </configure>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rolemap>
+  <permissions>
+    <permission name="collective.volto.subfooter: ManageSettings" acquire="True">
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
+    </permission>
+  </permissions>
+</rolemap>

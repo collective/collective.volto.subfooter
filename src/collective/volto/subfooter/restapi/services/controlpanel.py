@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
-from collective.volto.subfooter.interfaces import (
-    ICollectiveVoltoSubfooterLayer,
-    ISubfooter,
-)
+from collective.volto.subfooter.interfaces import ICollectiveVoltoSubfooterLayer
+from collective.volto.subfooter.interfaces import ISubfooter
 from plone.restapi.controlpanels import RegistryConfigletPanel
 from zope.component import adapter
 from zope.interface import implementer

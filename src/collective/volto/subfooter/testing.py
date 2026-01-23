@@ -30,12 +30,14 @@ VOLTO_SUBFOOTER_FIXTURE = VoltoSubfooterLayer()
 
 
 VOLTO_SUBFOOTER_INTEGRATION_TESTING = IntegrationTesting(
-    bases=(VOLTO_SUBFOOTER_FIXTURE,), name="VoltoSubfooterLayer:IntegrationTesting",
+    bases=(VOLTO_SUBFOOTER_FIXTURE,),
+    name="VoltoSubfooterLayer:IntegrationTesting",
 )
 
 
 VOLTO_SUBFOOTER_FUNCTIONAL_TESTING = FunctionalTesting(
-    bases=(VOLTO_SUBFOOTER_FIXTURE,), name="VoltoSubfooterLayer:FunctionalTesting",
+    bases=(VOLTO_SUBFOOTER_FIXTURE,),
+    name="VoltoSubfooterLayer:FunctionalTesting",
 )
 
 
@@ -55,7 +57,8 @@ class VoltoSubfooterRestApiLayer(PloneRestApiDXLayer):
 
 VOLTO_SUBFOOTER_API_FIXTURE = VoltoSubfooterRestApiLayer()
 VOLTO_SUBFOOTER_API_INTEGRATION_TESTING = IntegrationTesting(
-    bases=(VOLTO_SUBFOOTER_API_FIXTURE,), name="VoltoSubfooterRestApiLayer:Integration",
+    bases=(VOLTO_SUBFOOTER_API_FIXTURE,),
+    name="VoltoSubfooterRestApiLayer:Integration",
 )
 
 VOLTO_SUBFOOTER_API_FUNCTIONAL_TESTING = FunctionalTesting(
