@@ -5,7 +5,8 @@ Changelog
 ------------------
 
 - Update permission settings to allow site administrators to access the control panel
-   [thesaintsimon]
+- Compatibility with Plone 6.0
+  [TheSaintSimon]
 
 
 1.1.1 (2024-12-12)
